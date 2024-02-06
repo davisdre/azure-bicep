@@ -1,0 +1,9 @@
+# Set deployment name
+myDeploymentName='myAzureBudgetAlert'-$RANDON-$(date +"%d-%b-%Y")
+
+# Deploy bicep and use .bicepparam to fill parameters.
+az deployment sub create \
+--name $myDeploymentName \
+--location eastus \
+--template-file main.bicep \
+--parameters main.bicepparam

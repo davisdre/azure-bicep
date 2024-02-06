@@ -1,6 +1,0 @@
-# Set deployment name
-myDeploymentName='myAzureBudgetAlert'$(date +"%d-%b-%Y")
-
-myBudgetName='my_azure_budget'
-
-az deployment sub create --name $myDeploymentName --location eastus --template-file main.bicep --parameters startDate=2024-02-01 endDate=2024-05-10 amount=1 contactEmails='("davisdre@hotmail.com", "davisdre+test@hotmail.com")' budgetName=$myBudgetName
