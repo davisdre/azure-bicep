@@ -31,4 +31,8 @@ Before running the script, edit *main.bicepparam* and replace the sample data.
     --template-file main.bicep \
     --parameters main.bicepparam
     ```
-You will need to make sure you have filled out the *main.biccepparam* accordingly before deploy or you could run into issues during deployment. 
+You will need to make sure you have filled out the *main.biccepparam* accordingly before deploy or you could run into issues during deployment.
+
+## Additional Resources
+- [Quickstart: Create a budget with Bicep](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-create-budget-bicep?tabs=CLI)
+- [How to use Azure Resource Manager (ARM) deployment templates with Azure CLI](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-cli)
