@@ -1,0 +1,7 @@
+# BASH command to deploy bicep
+# Deploy bicep.
+az deployment mg create \
+--name nist80053Rev5Deployment \
+--location eastus \
+--management-group-id <mg-id> \
+--template-file main.bicep
