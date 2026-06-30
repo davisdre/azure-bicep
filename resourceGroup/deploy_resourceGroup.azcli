@@ -1,0 +1,8 @@
+# Set deployment name
+myDeploymentName='avmResourceGroup'-$(date +"%d-%b-%Y")
+
+# Deploy bicep.
+az deployment sub create \
+--name $myDeploymentName \
+--location eastus \
+--template-file main.bicep
