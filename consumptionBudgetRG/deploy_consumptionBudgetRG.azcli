@@ -1,0 +1,8 @@
+# Set deployment name
+myDeploymentName='avmConsumptionBudgetRG'-$(date +"%d-%b-%Y")
+
+# Deploy bicep.
+az deployment group create \
+--name $myDeploymentName \
+--resource-group myResourceGroup \
+--template-file main.bicep

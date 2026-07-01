@@ -21,10 +21,27 @@ This project contains a Bicep template and an Azure CLI script to create a budge
 - **`main.bicepparam`**: Parameters file for the Bicep template.
 - **`README.MD`**: Documentation for this project.
 
+### [consumptionBudgetRG](consumptionBudgetRG/README.MD)
+
+This project contains a Bicep template and an Azure CLI script to create a resource group-level consumption budget in Azure.
+
+- **`deploy_consumptionBudgetRG.azcli`**: Azure CLI script to deploy the Bicep template.
+- **`main.bicep`**: Bicep template defining the resource group consumption budget.
+- **`README.MD`**: Documentation for this project.
+
+### [resourceGroup](resourceGroup/README.MD)
+
+This project contains a Bicep template and an Azure CLI script to create a resource group in Azure.
+
+- **`deploy_resourceGroup.azcli`**: Azure CLI script to deploy the Bicep template.
+- **`main.bicep`**: Bicep template defining the resource group.
+- **`README.MD`**: Documentation for this project.
+
 ## Additional Resources
 
 - [Azure Bicep Documentation](https://docs.microsoft.com/azure/azure-resource-manager/bicep/)
 - [Azure CLI Documentation](https://docs.microsoft.com/cli/azure/)
+- [Bicep Resource Modules | AVM](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/bicep-resource-modules/)
 
 ## Contributing
 
